@@ -248,7 +248,7 @@
 	}
 
 		.select-wrapper:before {
-			content: "";
+			content: "";
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
@@ -472,11 +472,13 @@
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+			align-items: center
 		}
 
 			.image.fit img {
 				display: block;
 				width: 100%;
+				align-items: center
 			}
 
 /* List */
@@ -837,7 +839,7 @@
 		.wrapper.style1 {
 			background: #fff;
 			color: #555f66;
-			align: center
+			align-content: center
 		}
 
 		.wrapper.style2 {
