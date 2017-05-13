@@ -40,7 +40,7 @@
 						<li><a href="index.html">Inicio</a></li>
 						<li><a href="sobrenosotros.html">Sobre nosotros</a></li>
 						<li><a href="nuestroequipo.html">Nuestro equipo</a></li>
-						<li><a href="form.php">Contacto</a></li>
+						<li><a href="contacto.php">Contacto</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -82,21 +82,35 @@ else                /* send the submitted data */
 ?>
 
 <!-- Footer -->
+		
 			<footer id="footer">
 				<div class="container">
 					<div class="row double">
 						<div class="6u">
-							<p>Empresa dedicada al desarrollo de apps y webs</p>
+						QUIENES SOMOS
+							<p>Somos una pequeña empresa dedicada al desarrollo de apps y webs para su negocio o proyecto personal</p>
 							<ul class="icons">
 								<li><a href="https://www.facebook.com/pristok.technology/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 							</ul>
 						</div>
+						
+						<div class="6u">
+						<strong>ENLACES DE INTERES</strong>
+						<p><a href="politica-de-privacidad.html" title="Política de privacidad" target="new">Política de privacidad</a></p>
+						<p><a href="#" title="Contacto">Contacto</a></p>
+						<p><a href="sobrenosotros.html" title="Sobre nosotros">Sobre nosotros</a></p>
+						<p><a href="sitemap.html" title="Sitemap" target="new">Sitemap</a></p>
+						<p>+34 609331732</p>
+						
+						</div>
+						
 					</div>
 					<ul class="copyright">
 						<li>&copy; Pristok Technology. All rights reserved.</li>
 						<li>Design: <a href="http://pristok.com">Pristok Technology</a></li>
 					</ul>
 				</div>
+				
 				<script>
 window.addEventListener("load", function(){
 window.cookieconsent.initialise({

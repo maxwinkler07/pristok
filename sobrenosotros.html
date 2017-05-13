@@ -6,6 +6,8 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" type="text/css" href="css/cookies.css" />
+		<script src="js/cookies.js"></script>
 		<script src="js/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
@@ -37,7 +39,7 @@
 						<li><a href="index.html">Inicio</a></li>
 						<li><a href="sobrenosotros.html">Sobre nosotros</a></li>
 						<li><a href="nuestroequipo.html">Nuestro equipo</a></li>
-						<li><a href="contacto.html">Contacto</a></li>
+						<li><a href="contacto.php">Contacto</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -61,21 +63,55 @@
 			</section>
 
 <!-- Footer -->
+		
 			<footer id="footer">
 				<div class="container">
 					<div class="row double">
 						<div class="6u">
-							<p>Empresa dedicada al desarrollo de apps y webs</p>
+						QUIENES SOMOS
+							<p>Somos una pequeña empresa dedicada al desarrollo de apps y webs para su negocio o proyecto personal</p>
 							<ul class="icons">
 								<li><a href="https://www.facebook.com/pristok.technology/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 							</ul>
 						</div>
+						
+						<div class="6u">
+						<strong>ENLACES DE INTERES</strong>
+						<p><a href="politica-de-privacidad.html" title="Política de privacidad" target="new">Política de privacidad</a></p>
+						<p><a href="#" title="Contacto">Contacto</a></p>
+						<p><a href="sobrenosotros.html" title="Sobre nosotros">Sobre nosotros</a></p>
+						<p><a href="sitemap.html" title="Sitemap" target="new">Sitemap</a></p>
+						<p>+34 609331732</p>
+						
+						</div>
+						
 					</div>
 					<ul class="copyright">
 						<li>&copy; Pristok Technology. All rights reserved.</li>
 						<li>Design: <a href="http://pristok.com">Pristok Technology</a></li>
 					</ul>
 				</div>
+				
+				<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000",
+      "text": "#0f0"
+    },
+    "button": {
+      "background": "#0f0"
+    }
+  },
+  "theme": "classic",
+  "content": {
+    "message": "Esta página web hace uso de cookies para mejorar tu experiencia",
+    "dismiss": "OK!",
+    "link": "Quiero saber más"
+  }
+})});
+</script>
 			</footer>
 
 	</body>

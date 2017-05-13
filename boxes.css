@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.myboxes{
+	
+	width: 200px;
+    padding: 25px;
+}
+
+.box1{
+	
+	
+	width: 200px;
+	padding: 1px;
+	float: right;
+}
