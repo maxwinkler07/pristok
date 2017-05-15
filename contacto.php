@@ -86,41 +86,37 @@ else                /* send the submitted data */
 			<footer id="footer">
 				<div class="container">
 					<div class="row double">
-						<div class="6u">
-						QUIENES SOMOS
+						<div class="12u">
+						<p></p>
+						<strong>QUIENES SOMOS</strong>
 							<p>Somos una pequeña empresa dedicada al desarrollo de apps y webs para su negocio o proyecto personal</p>
 							<ul class="icons">
 								<li><a href="https://www.facebook.com/pristok.technology/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 							</ul>
 						</div>
-						
-						<div class="6u">
-						<strong>ENLACES DE INTERES</strong>
-						<p><a href="politica-de-privacidad.html" title="Política de privacidad" target="new">Política de privacidad</a></p>
-						<p><a href="#" title="Contacto">Contacto</a></p>
-						<p><a href="sobrenosotros.html" title="Sobre nosotros">Sobre nosotros</a></p>
-						<p><a href="sitemap.html" title="Sitemap" target="new">Sitemap</a></p>
-						<p>+34 609331732</p>
-						
-						</div>
-						
 					</div>
 					<ul class="copyright">
+						<strong>ENLACES DE INTERES</strong>
+						<li><p><a href="politica-de-privacidad.html" title="Política de privacidad" target="new">Política de privacidad</a></p></li>
+						<li><p><a href="/contacto.php" title="Contacto">Contacto</a></p></li>
+						<li><p><a href="sobrenosotros.html" title="Sobre nosotros">Sobre nosotros</a></p></li>
+						<li><p><a href="sitemap.html" title="Sitemap" target="new">Sitemap</a></p></li>
+						<li><p>+34 609331732</p></li>
+						<hr>
 						<li>&copy; Pristok Technology. All rights reserved.</li>
-						<li>Design: <a href="http://pristok.com">Pristok Technology</a></li>
+						<li>Design: <a href="http://pristok.com">Pristok Technology</a></li></hr>
 					</ul>
 				</div>
-				
 				<script>
 window.addEventListener("load", function(){
 window.cookieconsent.initialise({
   "palette": {
     "popup": {
       "background": "#000",
-      "text": "#0f0"
+      "text": "#fff"
     },
     "button": {
-      "background": "#0f0"
+      "background": "#fff"
     }
   },
   "theme": "classic",
@@ -132,6 +128,5 @@ window.cookieconsent.initialise({
 })});
 </script>
 			</footer>
-
-	</body>
+		</body>
 </html>
