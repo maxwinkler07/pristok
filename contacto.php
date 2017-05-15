@@ -31,7 +31,17 @@
     ======================================================= -->
 	
 	<body id="top">
+<!-- GOOGLE ANALYTICS -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-99175183-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 		<!-- Header -->
 			<header id="header" class="skel-layers-fixed">
 				<h1><a href="#"><a href="https://www.pristok.com"><img alt="" src="images/glowblancoelmejor.png" width="100" height="45"> </a></a></h1>
@@ -81,7 +91,60 @@ else                /* send the submitted data */
     }  
 ?>
 
-<!-- Footer -->
+<!-- MAILCHIMP; LOGO & DONATION -->
+<section id="two" class="wrapper style1">
+				<header class="major">
+					
+				</header>
+				<div class="container">
+					<div class="row">
+						<div class="4u">
+							<section class="special box">
+								<p><!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//pristok.us15.list-manage.com/subscribe/post?u=d57176a433f1ab6b6a711e4e6&amp;id=1feacc9a92" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Subscribe to our mailing list</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d57176a433f1ab6b6a711e4e6_1feacc9a92" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup--></p>
+</section>
+					</div>
+					
+					<div class="4u">
+							<section class="special box">
+								<p><a href="https://www.pristok.com"><img alt="" src="images/4x4vert.png" width="230" height="230"></a></p>
+							</section></div>
+						
+<div class="4u">
+							<section class="special box">
+							<h6>Le gusta nuestra empresa y le gustaria ayudarnos economicamente, donanos!</h6>
+							<p>________________</p>
+								<p><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="F79MZFS5FKQVE">
+<input type="image" src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet." >
+<img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+</form></p>
+						<h6>Pristok Technology</h6>
+							</section>
+	</div>
+	
+	<!-- END -->
+		
+			<!-- Footer -->
 		
 			<footer id="footer">
 				<div class="container">
