@@ -54,6 +54,19 @@
 					</ul>
 				</nav>
 			</header>
+			
+			<!-- GIF -->
+			<div class="container">
+					<div class="row">
+						<div class="12u">
+							<section class="special">
+							<p></p>
+							<p>.</p>
+								<img alt="" src="images/PRISTOK.gif">
+								<p></p>
+								<p>.</p>
+							</section>
+						</div>
 
 		<!-- Main -->
 		<?php
