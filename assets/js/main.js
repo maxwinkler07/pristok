@@ -1,249 +1,141 @@
-/*
-	Helios by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+"use strict";
 
-(function($) {
 
-	var settings = {
+jQuery(document).ready(function ($) {
 
-		// Carousels
-			carousels: {
-				speed: 4,
-				fadeIn: true,
-				fadeDelay: 250
-			},
-
-	};
-
-	skel.breakpoints({
-		wide: '(max-width: 1680px)',
-		normal: '(max-width: 1280px)',
-		narrow: '(max-width: 960px)',
-		narrower: '(max-width: 840px)',
-		mobile: '(max-width: 736px)'
+	$(window).load(function () {
+		$(".loaded").fadeOut();
+		$(".preloader").delay(1000).fadeOut("slow");
 	});
 
-	$(function() {
+    /*---------------------------------------------*
+     * Mobile menu
+     ---------------------------------------------*/
+    $('#navbar-collapse').find('a[href*=#]:not([href=#])').click(function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: (target.offset().top - 40)
+                }, 1000);
+                if ($('.navbar-toggle').css('display') != 'none') {
+                    $(this).parents('.container').find(".navbar-toggle").trigger("click");
+                }
+                return false;
+            }
+        }
+    });
 
-		var	$window = $(window),
-			$body = $('body');
+    /*---------------------------------------------*
+     * Scroll Total Navbar
+     ---------------------------------------------*/
 
-		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
+    $('body').scrollspy({
+        target: '.navbar',
+        offset: 160
+    });
 
-			$window.on('load', function() {
-				$body.removeClass('is-loading');
-			});
+    /*---------------------------------------------*
+     * Google Map Area
+     ---------------------------------------------*/
 
-		// CSS polyfills (IE<9).
-			if (skel.vars.IEVersion < 9)
-				$(':last-child').addClass('last-child');
+    var map = new GMaps({
+        el: '#map',
+        lat: 23.535726,
+        lng: 90.713344,
+        scrollwheel: false
+    });
 
-		// Fix: Placeholder polyfill.
-			$('form').placeholder();
 
-		// Prioritize "important" elements on mobile.
-			skel.on('+mobile -mobile', function() {
-				$.prioritize(
-					'.important\\28 mobile\\29',
-					skel.breakpoint('mobile').active
-				);
-			});
+    map.addMarker({
+        lat: 23.535726,
+        lng: 90.713344,
+        title: 'Lima',
+        infoWindow: {
+            content: '<p>Daudkandi Bazar, Comilla</p>'
+        }
 
-		// Dropdowns.
-			$('#nav > ul').dropotron({
-				mode: 'fade',
-				speed: 350,
-				noOpenerFade: true,
-				alignment: 'center'
-			});
+    });
+	
+	/*---------------------------------------------*
+     * Gallery Pop Up Animation
+     ---------------------------------------------*/
 
-		// Scrolly links.
-			$('.scrolly').scrolly();
+    $('.gallery-img').magnificPopup({
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
 
-		// Off-Canvas Navigation.
+    /*---------------------------------------------*
+     * Youtube Media
+     ---------------------------------------------*/
+    $('.youtube-media').magnificPopup({type: 'iframe'});
 
-			// Navigation Button.
-				$(
-					'<div id="navButton">' +
-						'<a href="#navPanel" class="toggle"></a>' +
-					'</div>'
-				)
-					.appendTo($body);
+    /*---------------------------------------------*
+     * Scroll Up
+     ---------------------------------------------*/
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 600) {
+            $('.scrollup').fadeIn('slow');
+        } else {
+            $('.scrollup').fadeOut('slow');
+        }
+    });
 
-			// Navigation Panel.
-				$(
-					'<div id="navPanel">' +
-						'<nav>' +
-							$('#nav').navList() +
-						'</nav>' +
-					'</div>'
-				)
-					.appendTo($body)
-					.panel({
-						delay: 500,
-						hideOnClick: true,
-						hideOnSwipe: true,
-						resetScroll: true,
-						resetForms: true,
-						target: $body,
-						visibleClass: 'navPanel-visible'
-					});
+    $('.scrollup').click(function () {
+        $("html, body").animate({scrollTop: 0}, 1000);
+        return false;
+    });
 
-			// Fix: Remove navPanel transitions on WP<10 (poor/buggy performance).
-				if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
-					$('#navButton, #navPanel, #page-wrapper')
-						.css('transition', 'none');
 
-		// Carousels.
-			$('.carousel').each(function() {
 
-				var	$t = $(this),
-					$forward = $('<span class="forward"></span>'),
-					$backward = $('<span class="backward"></span>'),
-					$reel = $t.children('.reel'),
-					$items = $reel.children('article');
+    /*---------------------------------------------*
+     * STICKY scroll
+     ---------------------------------------------*/
 
-				var	pos = 0,
-					leftLimit,
-					rightLimit,
-					itemWidth,
-					reelWidth,
-					timerId;
+    $.localScroll();
 
-				// Items.
-					if (settings.carousels.fadeIn) {
 
-						$items.addClass('loading');
 
-						$t.onVisible(function() {
-							var	timerId,
-								limit = $items.length - Math.ceil($window.width() / itemWidth);
+    /*---------------------------------------------*
+     * Counter 
+     ---------------------------------------------*/
 
-							timerId = window.setInterval(function() {
-								var x = $items.filter('.loading'), xf = x.first();
+//    $('.statistic-counter').counterUp({
+//        delay: 10,
+//        time: 2000
+//    });
 
-								if (x.length <= limit) {
 
-									window.clearInterval(timerId);
-									$items.removeClass('loading');
-									return;
 
-								}
 
-								if (skel.vars.IEVersion < 10) {
+    /*---------------------------------------------*
+     * WOW
+     ---------------------------------------------*/
 
-									xf.fadeTo(750, 1.0);
-									window.setTimeout(function() {
-										xf.removeClass('loading');
-									}, 50);
+//        var wow = new WOW({
+//            mobile: false // trigger animations on mobile devices (default is true)
+//        });
+//        wow.init();
 
-								}
-								else
-									xf.removeClass('loading');
 
-							}, settings.carousels.fadeDelay);
-						}, 50);
-					}
+    /* ---------------------------------------------------------------------
+     Carousel
+     ---------------------------------------------------------------------= */
 
-				// Main.
-					$t._update = function() {
-						pos = 0;
-						rightLimit = (-1 * reelWidth) + $window.width();
-						leftLimit = 0;
-						$t._updatePos();
-					};
+//    $('.testimonials').owlCarousel({
+//        responsiveClass: true,
+//        autoplay: false,
+//        items: 1,
+//        loop: true,
+//        dots: true,
+//        autoplayHoverPause: true
+//
+//    });
 
-					if (skel.vars.IEVersion < 9)
-						$t._updatePos = function() { $reel.css('left', pos); };
-					else
-						$t._updatePos = function() { $reel.css('transform', 'translate(' + pos + 'px, 0)'); };
 
-				// Forward.
-					$forward
-						.appendTo($t)
-						.hide()
-						.mouseenter(function(e) {
-							timerId = window.setInterval(function() {
-								pos -= settings.carousels.speed;
-
-								if (pos <= rightLimit)
-								{
-									window.clearInterval(timerId);
-									pos = rightLimit;
-								}
-
-								$t._updatePos();
-							}, 10);
-						})
-						.mouseleave(function(e) {
-							window.clearInterval(timerId);
-						});
-
-				// Backward.
-					$backward
-						.appendTo($t)
-						.hide()
-						.mouseenter(function(e) {
-							timerId = window.setInterval(function() {
-								pos += settings.carousels.speed;
-
-								if (pos >= leftLimit) {
-
-									window.clearInterval(timerId);
-									pos = leftLimit;
-
-								}
-
-								$t._updatePos();
-							}, 10);
-						})
-						.mouseleave(function(e) {
-							window.clearInterval(timerId);
-						});
-
-				// Init.
-					$window.load(function() {
-
-						reelWidth = $reel[0].scrollWidth;
-
-						skel.on('change', function() {
-
-							if (skel.vars.mobile) {
-
-								$reel
-									.css('overflow-y', 'hidden')
-									.css('overflow-x', 'scroll')
-									.scrollLeft(0);
-								$forward.hide();
-								$backward.hide();
-
-							}
-							else {
-
-								$reel
-									.css('overflow', 'visible')
-									.scrollLeft(0);
-								$forward.show();
-								$backward.show();
-
-							}
-
-							$t._update();
-
-						});
-
-						$window.resize(function() {
-							reelWidth = $reel[0].scrollWidth;
-							$t._update();
-						}).trigger('resize');
-
-					});
-
-			});
-
-	});
-
-})(jQuery);
+    //End
+});
