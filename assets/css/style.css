@@ -7,7 +7,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
    ========================================================================== */
 html,
 body {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     font-size: 13px;
     color: #565656;
     width: 100%;
@@ -50,7 +50,7 @@ PRE LOADER
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #fefefe;
+    background-color: #FFFFFF;
     z-index: 99999;
     height: 100%;
     width: 100%;
