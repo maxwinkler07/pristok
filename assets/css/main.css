@@ -1,14 +1,4 @@
-@charset "UTF-8";
-/* CSS Document */
-
-.custom-contact{
-	margin-left: 0;
-
-}
-
-.contact-form-area{
-	width:60vw;
-}
+/* Custom style for Pristok.com */
 
 table {
 font-family: arial, sans-serif;
@@ -18,11 +8,9 @@ width: 100%;
 
 td, th {
 border: 1px solid #dddddd;
+text-align: left;
 padding: 8px;
-width: 33.3%;
-text-align: center;
 }
-
 
 tr:nth-child(even) {
 background-color: #dddddd;
