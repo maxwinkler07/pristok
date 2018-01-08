@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+td, th {
+border: 1px solid #dddddd;
+padding: 8px;
+width: 33.3%;
+text-align: center;
+}
+
+
+tr:nth-child(even) {
+background-color: #dddddd;
+}
