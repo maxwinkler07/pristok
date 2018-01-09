@@ -1,0 +1,91 @@
+/* ===================================================
+   Simon Layout Stylesheet
+
+   TOC:
+    01. Color - Blue
+
+====================================================== */
+.color,
+.comemnts_blog a.reply,
+.main-nav .links a.active,
+.main-nav .links a:hover,
+.main-nav .links li .subnav li a::before,
+.pagination .page-item .page-link,
+.price-table-2 .list-details li:before,
+.price-table-3 h6 span,
+.route ul li a:hover,
+.single-clients-2 h6,
+.statistics a i,
+.team-single a:hover,
+.widget .tags a:hover,
+.widget-menu li span,
+a:active,
+a:focus,
+a:hover,
+a:visited {
+  color: #2D83B4; }
+
+.form-control:focus,
+.progress.primary .progress-bar:after {
+  border-color: #2D83B4; }
+
+.price-table-2.active,
+.price-table-3.active,
+.price-table.active {
+  border: 1px solid rgba(45, 131, 180, 0.125); }
+
+.price-table-2 .list-details li:before {
+  color: #2D83B4; }
+
+.back-to-top-button:hover,
+.bg-primary,
+.double-bounce1,
+.double-bounce2 {
+  background-color: #2D83B4; }
+
+.back-to-top-button {
+  background-color: rgba(45, 131, 180, 0.25); }
+
+.overlay-color {
+  background-color: rgba(45, 131, 180, 0.92); }
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #2D83B4;
+  border-color: #2D83B4; }
+
+.overlay-dark .form-control {
+  color: #2D83B4 !important; }
+
+.bg-grad-primary,
+.btn-highlight,
+.btn-highlight:active,
+.btn-highlight:hover,
+.grid-gallery .item-gallery-caption,
+.icon-box-single:hover,
+.icon-counter-single:hover,
+.main-footer .footer-social-links a:hover,
+.main-nav .links li .subnav li a:hover,
+.page-link:focus,
+.page-link:hover,
+.price-table-2.active,
+.price-table-3.active,
+.price-table.active,
+.progress .progress-bar,
+.tabs-single.is-active,
+.team-single:hover .team-detail,
+.widget .tags a:hover,
+.widget .tags a:hover {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0093a0+0,2d83b4+100 */
+  background: #2D83B4;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #0093a0 0%, #2d83b4 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #0093a0 0%, #2d83b4 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #0093a0 0%, #2d83b4 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=  '#0093a0', endColorstr='#2d83b4',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+/*# sourceMappingURL=color-blue.css.map */

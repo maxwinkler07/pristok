@@ -1,0 +1,927 @@
+/* ===================================================
+   simon Layout Stylesheet
+
+   TOC:
+     01. Variants Styles
+     02. Revolution Slider
+     03. Intro Style
+     04. Icon-Box Styles
+     05. Carousel Logos Styles
+     06. Progress Bar Styles
+     07. Tabs Styles
+     08. Price Table Styles
+     09. Works Gallery Styles
+     10. Blog Table Styles
+     11. Team Table Styles
+     12. Counter Styles
+     13. Owl-Carousel Comments Styles
+     14. Accordion Styles
+     15. Project and Portfolio Styles
+     16. Widget Styles
+
+====================================================== */
+/* ====================================================
+    01. Variants Styles
+==================================================== */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Oxygen:300,400,700");
+/* ---- Color ---- */
+/* ====================================================
+    02. Revolution Slider
+==================================================== */
+.rev-slider-btns {
+  background: transparent !important; }
+
+.rev-slider-btns .btn:first-child {
+  margin-right: 3px; }
+
+.rev-slider-btns .btn:last-child {
+  margin-left: 3px; }
+
+.slide-2 .btn {
+  margin: 0 !important; }
+
+div.tparrows {
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+div.tparrows:hover {
+  background: #fff;
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); }
+
+div.tparrows:before {
+  font: normal normal normal 14px/1 'ionicons';
+  line-height: 50px;
+  color: #666;
+  font-size: 24px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+div.tparrows.tp-leftarrow:before {
+  content: '\f3cf'; }
+
+div.tparrows.tp-rightarrow:before {
+  content: '\f3d1'; }
+
+.rev-title-typo {
+  background: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 6px !important;
+  color: #fff;
+  text-align: center; }
+
+.rev-title-typo span {
+  background: transparent;
+  font-weight: 500 !important; }
+
+.rev-subtitle-typo {
+  background: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: #ddd; }
+
+.rev-borderd-title {
+  background: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 4.5px;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 2px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07); }
+
+.tp-caption .mdl-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  outline: none;
+  font-size: 13px !important;
+  min-width: 130px;
+  margin-left: 0; }
+
+/* Revslider arrow */
+.tparrows.simon-revslider-2-arrow {
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); }
+
+.tparrows.simon-revslider-2-arrow:before {
+  color: #ffffff; }
+
+.tparrows.simon-revslider-2-arrow:hover {
+  background-color: #fff; }
+
+.tparrows.simon-revslider-2-arrow:hover:before {
+  color: rgba(0, 0, 0, 0.8); }
+
+/* Revslider bullet */
+.simon .tp-bullet {
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid #fff; }
+
+.simon-revslider-2 .rev-title-typo {
+  letter-spacing: 0; }
+
+/* ====================================================
+    03. Intro Style
+==================================================== */
+.height-50 {
+  height: 364px; }
+
+.width-668 article {
+  height: 668px; }
+
+.width-668 article p {
+  width: 100%; }
+
+/* ====================================================
+    04. Icon-box Styles
+==================================================== */
+/* ----- icon-box-single-v2 ----- */
+.box-single {
+  padding: 0 15px;
+  margin-bottom: 30px; }
+
+/* ----- icon-box-single ----- */
+.icon-box-single {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  display: block;
+  padding: 30px 45px 10px;
+  margin-bottom: 30px;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.icon-box-single:hover,
+.icon-counter-single:hover,
+.price-table.active {
+  /* IE6-9 fallback on horizontal gradient */
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  color: #ffffff; }
+
+.icon-box-single:hover .icon-box,
+.icon-box-single:hover .icon-box-content .icon-box-title,
+.icon-box-single:hover .icon-box-content p {
+  color: #ffffff !important; }
+
+.icon-box-single .icon-box,
+.price-table i.zmdi {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #687180; }
+
+.overlay-dark .icon-box-single .icon-box,
+.overlay-dark .price-table i.zmdi {
+  color: #eaedf6; }
+
+.icon-box-title {
+  font-weight: 500; }
+
+.icon-box-single.icon-box-center {
+  text-align: center; }
+
+.icon-box-left {
+  padding: 36px 30px 0 120px; }
+
+.icon-box-left .icon-box {
+  position: absolute;
+  left: 0;
+  top: 36%;
+  /* margin-right: 30px; */
+  width: 120px;
+  text-align: center; }
+
+.icon-box-left .icon-box-title {
+  padding-left: 0 !important;
+  line-height: 1.1; }
+
+.icon-box-title strong {
+  color: #2D83B4;
+  margin-right: 10px; }
+
+.icon-box-single:hover .icon-box-title strong {
+  color: #ffffff !important; }
+
+.not-border {
+  border: none; }
+
+/* ====================================================
+    05. Carousel Logos Styles
+==================================================== */
+.owl-logos {
+  margin-bottom: 30px; }
+
+.owl-carousel .owl-item .single-clients img {
+  display: inline-block;
+  position: relative; }
+
+.single-clients {
+  text-align: center; }
+
+.single-clients img {
+  width: auto !important; }
+
+.single-clients-2 {
+  text-align: center;
+  border: 1px solid #c8cbd2;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.single-clients-2 h6 {
+  margin-bottom: 0;
+  margin-top: 20px;
+  font-size: 13px; }
+
+.single-clients-2 p {
+  margin-bottom: 0; }
+
+.link-client .icon-box-single {
+  padding: 45px; }
+
+.link-client .icon-box-single .icon-box {
+  margin-bottom: 0; }
+
+/* ====================================================
+    06. Progress Bar Styles
+==================================================== */
+.progress-title {
+  font-size: 13px;
+  font-weight: 400;
+  color: #687180;
+  margin: 0 0 10px;
+  line-height: 16px; }
+
+.progress {
+  height: 4px;
+  background: #c8cbd2;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 40px;
+  overflow: visible; }
+
+.progress-bar {
+  height: 4px; }
+
+.progress .progress-bar {
+  box-shadow: none;
+  position: relative;
+  -webkit-animation: animate-positive 2s;
+  animation: animate-positive 2s; }
+
+.progress .progress-bar:after {
+  content: "";
+  display: block;
+  border: 6px solid transparent;
+  border-radius: 100%;
+  position: absolute;
+  top: -4px;
+  right: -4px; }
+
+.progress .progress-value {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+  position: absolute;
+  top: -24px;
+  right: 0; }
+
+.progress.default .progress-bar {
+  background: #1c1f26; }
+
+.progress.default .progress-bar:after {
+  border-color: #1c1f26; }
+
+/* ====================================================
+    07. Tabs Styles
+==================================================== */
+.mdl-tabs.is-upgraded .mdl-tabs__tab {
+  text-transform: uppercase !important; }
+
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
+  border-bottom: 1px solid #e0e0e0;
+  color: #ffffff;
+  text-transform: uppercase !important; }
+
+.mdl-tabs.is-upgraded .tabs-single.is-active::after {
+  background: transparent; }
+
+.tabs-single {
+  border: 1px solid #e0e0e0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-top: 2px; }
+
+.tabs-single .tab-icon {
+  margin-right: 15px;
+  font-size: 14px; }
+
+.tabs-single:hover {
+  color: #1c1f26;
+  background: #c8cbd2;
+  text-transform: uppercase; }
+
+.tabs-single .zmdi {
+  font-size: 20px;
+  margin-right: 15px; }
+
+.tabs-single.is-active {
+  border: 1px solid #e0e0e0; }
+
+.tabs-single.is-active {
+  color: #ffffff; }
+
+.panel-single {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 68px 0 50px;
+  margin-bottom: 30px; }
+
+.panel-single .icon-box-single {
+  margin-bottom: 15px !important; }
+
+/* ====================================================
+    08. Price Table Styles
+==================================================== */
+.price-table,
+.price-table-2 {
+  background: rgba(234, 237, 246, 0.92);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 60px;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.price-table:hover,
+.price-table-2:hover,
+.price-table .active:hover,
+.price-table-2 .active:hover {
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); }
+
+.price-table h5 {
+  margin-bottom: 40px;
+  color: #1c1f26; }
+
+.price-table p {
+  margin-bottom: 40px; }
+
+.price-table.active * {
+  color: #ffffff !important; }
+
+.price-table .price-title {
+  margin-top: 40px; }
+
+.price-table .price-valor {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  display: inline-block;
+  padding: 5px 15px;
+  margin-bottom: 0; }
+
+.price-table.active .price-valor {
+  border: 1px solid rgba(255, 255, 255, 0.4); }
+
+/* version two */
+.price-table-2 {
+  border-radius: 4px;
+  text-align: center;
+  padding: 60px 60px 30px 60px; }
+
+.price-table-2 h4 {
+  margin-top: 0;
+  font-weight: 500;
+  color: #687180; }
+
+.price-table-2 h1 {
+  position: relative;
+  font-size: 82px;
+  margin: 36px 0;
+  font-weight: 700; }
+
+.price-table-2 h1 span {
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 15px; }
+
+.price-table-2 .list-details {
+  display: block;
+  padding-left: 0;
+  text-align: left; }
+
+.price-table-2 .list-details li {
+  margin-bottom: 15px;
+  margin-left: 36px;
+  list-style: none; }
+
+.price-table-2 .list-details li:before {
+  content: '\f122';
+  font-family: 'ionicons';
+  float: left;
+  margin-left: -2rem; }
+
+.price-table-2.active *,
+.price-table-2.active .list-details li:before,
+.price-table-3.active *,
+.price-table-3.active .list-details li:before {
+  color: #ffffff !important; }
+
+.price-table-3 {
+  background: rgba(234, 237, 246, 0.92);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 40px 40px 15px;
+  margin-bottom: 30px; }
+
+.price-table-3 h1 {
+  margin-bottom: 12px; }
+
+.price-table-3 h6 {
+  text-transform: capitalize; }
+
+.price-table-3 .list-details {
+  display: block;
+  margin-top: 70px;
+  margin-bottom: 15px;
+  text-align: left;
+  padding-left: 0; }
+
+.price-table-3 .list-details li {
+  margin-bottom: 15px;
+  list-style: none;
+  display: inline-block; }
+
+.price-table-3 .list-details li::after {
+  content: "-";
+  padding-left: 9px;
+  padding-right: 7px; }
+
+.price-table-3 .list-details li:last-child::after {
+  content: ".";
+  padding-left: 0;
+  padding-right: 0; }
+
+/* ====================================================
+    09. Works Gallery Styles
+==================================================== */
+.grid-gallery {
+  position: relative; }
+
+.grid-gallery .item-gallery {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 30px; }
+
+.grid-gallery .item-gallery-img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
+
+.grid-gallery .item-gallery:hover .item-gallery-img {
+  -webkit-transform: scale(1);
+  transform: scale(1); }
+
+.grid-gallery,
+.grid-gallery .item-gallery,
+.grid-gallery .item-gallery-img,
+.grid-gallery .item-gallery:hover .item-gallery-caption,
+.grid-gallery .item-gallery:hover .item-gallery-img {
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-align: center; }
+
+.grid-gallery .item-gallery-caption {
+  cursor: default;
+  color: #ffffff;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  padding: 40px;
+  text-align: left; }
+
+.grid-gallery .item-gallery-caption h4 {
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 0; }
+
+.grid-gallery .item-gallery-caption p {
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 6px !important;
+  font-size: 12px; }
+
+.grid-gallery .item-gallery:hover .bottom-to-top {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1; }
+
+/*Bottom to Top*/
+.bottom-to-top {
+  top: 50%;
+  left: 0; }
+
+.grid-gallery .item-gallery:hover .bottom-to-top {
+  top: 0;
+  left: 0; }
+
+/* ====================================================
+    10. Blog Table Styles
+==================================================== */
+.blog-table {
+  position: relative;
+  padding: 30px 30px 10px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  text-align: center;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.blog-table:hover {
+  border: 1px solid #2D83B4;
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); }
+
+.blog-table .blog-title * {
+  text-transform: capitalize;
+  margin-bottom: 0; }
+
+.blog-table .autor-date * {
+  text-transform: capitalize;
+  font-size: 12px;
+  margin: 2px 0 6px;
+  letter-spacing: 1px; }
+
+.blog-table .autor-date .blog-autor::after {
+  content: "/";
+  margin: 0 5px; }
+
+.blog-table .blog-img {
+  margin-top: 20px;
+  margin-bottom: 25px; }
+
+.statistics a {
+  margin-right: 2rem;
+  color: #1c1f26; }
+
+.statistics a:last-child {
+  margin-right: 0; }
+
+.statistics a i {
+  margin-right: 0.25rem; }
+
+.comemnts_blog ul li {
+  list-style: none;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #c8cbd2; }
+
+.comemnts_blog ul li:last-child {
+  padding-bottom: 0;
+  border-bottom: none; }
+
+.comemnts_blog .title span {
+  font-family: "Roboto", sans-serif !important; }
+
+.comemnts_blog .comment_content {
+  padding-left: 90px; }
+
+.comemnts_blog a.reply i {
+  margin-right: 0.25rem; }
+
+.comemnts_blog .comment_content h5 {
+  margin-bottom: 0.25rem;
+  text-transform: capitalize; }
+
+.comemnts_blog .comment_content p.date {
+  margin-bottom: 1rem;
+  font-style: italic; }
+
+.comemnts_blog ul ul {
+  padding-left: 2.857rem; }
+
+.comemnts_blog ul ul li {
+  border-bottom: none;
+  padding-bottom: 0; }
+
+/* ====================================================
+    11. Team Table Styles
+==================================================== */
+.team-single {
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.08); }
+
+.team-single a {
+  background: rgba(28, 31, 38, 0.5);
+  color: #ffffff;
+  font-size: 24px;
+  position: absolute;
+  padding-top: 0;
+  width: 46px;
+  top: 0;
+  right: 0;
+  opacity: 0; }
+
+.team-single .team-title {
+  margin-bottom: 0; }
+
+.team-single .team-detail {
+  position: relative;
+  padding-top: 30px;
+  display: grid; }
+
+.team-single,
+.team-single .team-detail {
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.team-single:hover {
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); }
+
+.team-single:hover a {
+  opacity: 1;
+  z-index: 99; }
+
+.team-single:hover .team-title,
+.team-single:hover p {
+  color: #ffffff; }
+
+/* ====================================================
+    12. Counter Styles
+==================================================== */
+.icon-counter-single {
+  padding: 0 15px;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: #1c1f26;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 45px 30px 22px;
+  margin-bottom: 30px;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.icon-counter {
+  color: #687180;
+  font-size: 48px;
+  margin-bottom: 30px; }
+
+.icon-counter-content .counter {
+  color: #ffffff;
+  margin-bottom: 0; }
+
+.icon-counter-single:hover * {
+  color: #ffffff; }
+
+/* ====================================================
+    13. Owl-Carousel Comments Styles
+==================================================== */
+.comments-title {
+  margin-bottom: 40px; }
+
+.comments-title span {
+  font-size: 48px;
+  margin-bottom: 40px; }
+
+.comments-title * {
+  color: #ffffff; }
+
+.comments-title i {
+  font-size: 48px; }
+
+.item-comments {
+  text-align: center; }
+
+.item-comments .comment-text {
+  color: #ffffff;
+  font-weight: 300; }
+
+.item-comments .comment-autor {
+  text-transform: capitalize;
+  font-style: italic;
+  margin-bottom: 30px;
+  color: #2D83B4; }
+
+/* ====================================================
+    14. Accordion Styles
+==================================================== */
+/* Simple Accordion jQuery */
+.jquery_accordion_wrapper {
+  width: 100%; }
+
+.jquery_accordion_item {
+  display: block;
+  border: 1px solid #c8cbd2;
+  margin-bottom: 15px; }
+
+.jquery_accordion_title {
+  display: block;
+  padding: 18px 20px;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  color: #1c1f26;
+  cursor: pointer; }
+
+.jquery_accordion_title:hover {
+  background: #687180;
+  color: #ffffff;
+  cursor: pointer; }
+
+.jquery_accordion_title:after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  border: 6px solid transparent;
+  border-top-color: #1c1f26;
+  transition: border 400ms, margin 400ms;
+  margin-top: -3px;
+  /* half of border value */ }
+
+.jquery_accordion_item.active,
+.jquery_accordion_item.in {
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.jquery_accordion_item.active .jquery_accordion_title,
+.jquery_accordion_item.in .jquery_accordion_title {
+  background: #1c1f26;
+  border: 1px solid #1c1f26;
+  color: #ffffff; }
+
+.jquery_accordion_item.active .jquery_accordion_title:after,
+.jquery_accordion_item.in .jquery_accordion_title:after {
+  border-color: transparent;
+  border-bottom-color: #ffffff;
+  margin-top: -9px;
+  /* fixing arrow position */ }
+
+.jquery_accordion_item.in .jquery_accordion_content {
+  display: block; }
+
+.jquery_accordion_content {
+  padding: 30px 20px 0;
+  display: none;
+  color: #333; }
+
+.jquery_accordion_content > *:first-child {
+  margin-top: 0; }
+
+/* ====================================================
+    15. Project and Portfolio Styles
+==================================================== */
+.project-item {
+  margin: 0 0 60px 0; }
+
+.project-item img {
+  margin-bottom: 0; }
+
+.project article {
+  border: 1px solid #c8cbd2; }
+
+.filter-portfolio {
+  text-align: center; }
+
+.details-project dt {
+  margin-bottom: 4px; }
+
+/* ====================================================
+    16. Widget Styles
+==================================================== */
+.widget {
+  margin-bottom: 100px; }
+
+.widget-center {
+  text-align: center; }
+
+.widget-title {
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc; }
+
+.clearlist,
+.clearlist li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: none; }
+
+.widget-menu li {
+  padding: 2px 0; }
+
+.widget ul.recent-posts li a,
+.widget-menu li a {
+  font-weight: 300;
+  color: #1c1f26;
+  text-decoration: none;
+  padding-bottom: 2px;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: all 0.17s cubic-bezier(0, 0, 0.58, 1);
+  -moz-transition: all 0.17s cubic-bezier(0, 0, 0.58, 1);
+  -o-transition: all 0.17s cubic-bezier(0, 0, 0.58, 1);
+  -ms-transition: all 0.17s cubic-bezier(0, 0, 0.58, 1);
+  transition: all 0.17s cubic-bezier(0, 0, 0.58, 1); }
+
+.widget ul.recent-posts li a:hover,
+.widget-menu li a.active,
+.widget-menu li a:hover {
+  color: #687180; }
+
+.widget .tags a {
+  display: inline-block;
+  margin: 0 4px 8px 0;
+  padding: 5px 15px;
+  border: 1px solid #1c1f26;
+  color: #1c1f26;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
+  -moz-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
+  -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
+  -ms-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
+  transition: all 0.27s cubic-bezier(0, 0, 0.58, 1); }
+
+.widget .tags a:hover {
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  color: #ffffff !important; }
+
+.widget ul li {
+  list-style-type: none; }
+
+.widget ul.recent-posts li {
+  padding: 10px 0; }
+
+.widget ul.recent-posts li span {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1;
+  color: #999;
+  margin-top: 0; }
+
+.widget ul.recent-posts li,
+.widget ul.recent-posts li a,
+.widget ul.recent-posts li span {
+  display: block; }
+
+/*# sourceMappingURL=main.css.map */

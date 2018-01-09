@@ -1,0 +1,132 @@
+/* ===================================================
+
+   simón Media Queries
+
+   TOC:
+	01. screen width less than 1401px and more then 1040  ( Extra large Screen / Desktop )
+	02. screen width more than 1200px and less then 1300  ( Mid large Screen / Desktop )
+	03. screen width less than 1200px  ( large Screen / Notebook )
+	04. screen width more than 767px  ( Tablets & Desktop Screen )
+	05. screen width less than 992px  ( Medium Screen / Tablets )
+	06. screen width less than 801px  ( Medium wide Screen / Small Tablets )
+	07. screen width less than 768px  ( Medium Screen / Smaller Tablets )
+	08. screen width less than 603px  ( Medium Screen / Mobile )
+	09. screen width less than 600px  ( Medium Screen / Mobile )
+	10. screen width less than 500px  ( Small Screen / Mobile )
+	11. screen width less than 370px  ( Smaller Screen / Mobile )
+
+====================================================== */
+
+@media (max-width: 1440px) {}
+
+
+/* screen width less than 1401px and more then 1040
+------------------------------- */
+
+@media (max-width: 1400px) and (min-width: 1040px) {}
+
+
+/* screen width more than 1200px and less then 1300
+---------------------------------------------------- */
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .main-header {
+    padding: 10px 50px;
+  }
+  .main-nav .logo-initial .logo-lite {
+    width: 8%;
+    margin-top: 14px;
+  }
+  .main-nav .logo-initial .logo-dark {
+    width: 8%;
+    margin-top: 14px;
+  }
+}
+
+
+/* screen width less than 1200px
+------------------------------- */
+
+@media (max-width: 1199px) {}
+
+
+/* screen width large than 991px
+--------------------------------- */
+
+@media (min-width: 992px) {}
+
+
+/* screen width less than 992px
+--------------------------------- */
+
+@media (max-width: 991px) {}
+
+
+/* screen width less than 801px
+------------------------------ */
+
+@media (max-width: 800px) {
+  .lg-pr-60{
+    padding-right: 15px;
+  }
+  .main-header{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .logo-dark, .logo-lite{
+    padding-top: 5px;
+  }
+  .single-clients img{
+    width: 75%!important;
+  }
+  .bar-progress{
+    margin-bottom: 30px;
+  }
+  .icon-box-left .icon-box{
+    top: 20%!important;
+  }
+}
+
+
+/* screen width less than 768px
+------------------------------ */
+
+@media (max-width: 767px) {
+  .section-title{
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  .icon-box-left .icon-box{
+    top: 16%!important;
+  }
+
+  .contact .item-contact {
+  margin-bottom: 30px;
+  }
+
+}
+
+
+/* screen width less than 603px
+------------------------------ */
+
+@media (max-width: 603px) {}
+
+
+/* screen width less than 600px
+------------------------------ */
+
+@media (max-width: 600px) {}
+
+
+/* screen width less than 500px
+------------------------------ */
+
+@media (max-width: 500px) {}
+
+
+/* screen width less than 370px
+------------------------------ */
+
+@media (max-width: 370px) {}
