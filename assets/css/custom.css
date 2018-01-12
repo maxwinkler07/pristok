@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.page-scroll{
+	visibility: hidden;
+}
+
+.main-header{
+	height: 7em;
+}
