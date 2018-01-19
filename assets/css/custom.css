@@ -8,3 +8,7 @@
 .main-header{
 	height: 7em;
 }
+
+.whitespace{
+	visibility: hidden;
+}
