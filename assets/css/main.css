@@ -753,7 +753,7 @@ div.tparrows.tp-rightarrow:before {
 ==================================================== */
 /* Simple Accordion jQuery */
 .jquery_accordion_wrapper {
-  width: 100%; }
+  width: 100%;}
 
 .jquery_accordion_item {
   display: block;
