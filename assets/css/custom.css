@@ -1,9 +1,9 @@
 @charset "UTF-8";
-/* CSS Document */
+/* CSS Document 
 
 .page-scroll{
 	visibility: hidden;
-}
+}*/
 
 .main-header{
 	height: 7em;
@@ -12,3 +12,26 @@
 .whitespace{
 	visibility: hidden;
 }
+
+/*Scroll Up*/
+
+.scrollup{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    background: #4bcaff;
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    font-weight: bold;
+    border-radius: 100%;
+    transition:all 500ms .2s;
+    cursor:pointer;
+}
+.scrollup:hover{
+    background: #008ac4;
+    color: #fff;
+    transform:scale(1.1);
+}	
