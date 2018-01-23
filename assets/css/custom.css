@@ -29,6 +29,7 @@
     border-radius: 100%;
     transition:all 500ms .2s;
     cursor:pointer;
+	line-height: 1.3;
 }
 .scrollup:hover{
     background: #008ac4;
