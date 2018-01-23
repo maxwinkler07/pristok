@@ -536,12 +536,12 @@ div.tparrows.tp-rightarrow:before {
 .grid-gallery .item-gallery-caption h4 {
   color: #ffffff;
   font-weight: 400;
-  margin-bottom: 0; }
+  margin-bottom: 3; }
 
 .grid-gallery .item-gallery-caption p {
   color: #ffffff;
-  text-transform: uppercase;
-  letter-spacing: 6px !important;
+  text-transform: none;
+  letter-spacing: 3px !important;
   font-size: 12px; }
 
 .grid-gallery .item-gallery:hover .bottom-to-top {

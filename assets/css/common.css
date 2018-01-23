@@ -75,7 +75,7 @@ a:hover,
 a:visited {
   text-decoration: none;
   outline: none !important;
-  text-transform: capitalize; }
+  text-transform: none; }
 
 a {
   -webkit-transition: color 0.3s ease, opacity 0.3s ease;
