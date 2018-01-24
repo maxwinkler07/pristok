@@ -383,7 +383,7 @@
               <!-- start item-price -->
               <div class="price-table">
                 <h4 class="price-title">Isidro Martín</h4>
-                <p>Desarrollador y diseñador</p>
+                <p>Desarrollador senior y diseñador</p>
                 <p><a href="keys/imartin.asc"> (PGP) </a></p>
                 <p> <a href="mailto:i.martin@pristok.com">i.martin@pristok.com</a></p>
               </div>
@@ -395,7 +395,7 @@
               <!-- start item-price -->
               <div class="price-table">
                 <h4 class="price-title">Max Winkler</h4>
-                <p>Desarrollador y seguridad</p>
+                <p>Desarrollador senior y CDO</p>
                 <p><a href="keys/mwinkler.asc"> (PGP) </a></p>
                 <p><a href="mailto:m.winkler@pristok.com">m.winkler@pristok.com</a></p>
               </div>
@@ -407,7 +407,7 @@
               <!-- start item-price -->
               <div class="price-table">
                 <h4 class="price-title">Mauricio Gonzalez</h4>
-                <p>Desarollador y marketing</p>
+                <p>Desarollador junior y marketing</p>
                 <p><a href="keys/mgonzalez.asc"> (PGP) </a></p>
                 <p><a href="mailto:m.gonzalez@pristok.com">m.gonzalez@pristok.com</a></p>
               </div>
@@ -554,7 +554,7 @@
     <!-- end client section-->
         
         <!-- start contact section-->
-         <section id="contacto ">
+         <section id="contacto">
          <section id="details-project">
       <div class="container section-space-h">
         <!-- start row 1 section-->
@@ -614,7 +614,7 @@
   <!-- end main wrapper   -->
 
   <!-- start main footer -->
-  <footer id="contact" class="main-footer ">
+  <footer id="foot" class="main-footer ">
     <div class="container">
 
       <!-- start row 1 section-->
@@ -627,7 +627,8 @@
                 <div class=" item-contact">
 
                   <p><h6>Suscríbase a nuestro boletín de noticias</h6>
-<!-- Begin MailChimp Signup Form --><link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 #mc_embed_signup{background:repeating-radial-gradient(); clear:left; font:14px sans-serif; }
 /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
@@ -640,7 +641,7 @@
 <label for="mce-EMAIL"></label>
 <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <br></br>
+    <div class="whitespace">Lorem</div>
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d57176a433f1ab6b6a711e4e6_1feacc9a92" tabindex="-1" value=""></div>
     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
@@ -701,7 +702,24 @@
   <script>
     window.jQuery || document.write('<script type="text/javascript" src="assets/js/vendor/jquery.min.js"><\/script>')
   </script>
-
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+ <script>
+   $(document).ready(function () {
+       $(window).scroll(function () {
+           if ($(this).scrollTop() > 100) {
+               $('.scrollup').fadeIn();
+           } else {
+               $('.scrollup').fadeOut();
+           }
+       });
+       $('.scrollup').click(function () {
+           $("html, body").animate({
+               scrollTop: 0
+           }, 600);
+           return false;
+       });
+   });
+ </script>
   <script type="text/javascript" src="assets/libs/mdl/material.min.js"></script>
   <script type="text/javascript" src="assets/libs/bootstrap/js/tether.min.js"></script>
   <script type="text/javascript" src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
