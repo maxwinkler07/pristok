@@ -75,7 +75,8 @@ a:hover,
 a:visited {
   text-decoration: none;
   outline: none !important;
-  text-transform: none; }
+  text-transform: none;
+}
 
 a {
   -webkit-transition: color 0.3s ease, opacity 0.3s ease;
@@ -85,7 +86,8 @@ a {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
+  transition: all 0.3s ease;
+  text-decoration: none;}
 
 h1 {
   font-size: 34px; }
