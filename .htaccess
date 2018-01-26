@@ -1,2 +1,2 @@
 # Error pages
-ErrorDocument 404 /error_pages/404.html
+ErrorDocument 404 /404.html
