@@ -57,7 +57,7 @@ textarea, input { outline: none; }
 	border-radius: 40px;
 	font-size:18px;
 	position: fixed;
-    bottom: -370px;
+    bottom: -375px;
     right: -150px;
 }
 .button:hover{opacity:0.9 !important;color:black}
