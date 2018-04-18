@@ -259,7 +259,7 @@ $(document).ready(function() {
    */
 
    // carousel
-   $("#client-slider").owlCarousel({
+	$("#client-slider").owlCarousel({
      loop: true,
      center: false,
      margin: 35,
@@ -277,7 +277,7 @@ $(document).ready(function() {
      }
    });
 
-   // carousel
+   /*/ carousel
    $("#single-carousel").owlCarousel({
      loop: true,
      center: false,
@@ -315,7 +315,7 @@ $(document).ready(function() {
      }
    });
 
-   // carousel
+  */// carousel
    $("#blog-carousel").owlCarousel({
      loop: true,
      center: false,
@@ -324,6 +324,7 @@ $(document).ready(function() {
      dots: false,
      navText: ["&#xf124", "&#xf125"],
      pag:false,
+	 
      responsive: {
        320: { items: 1 },
        600: { items: 1 },
@@ -333,7 +334,7 @@ $(document).ready(function() {
        1440: { items: 3 }
      }
    });
-
+	
    $('.jquery_accordion_title').on("click", function() {
      $(this).closest('.jquery_accordion_item').siblings().removeClass('in').find('.jquery_accordion_content').slideUp(400);
    	$(this).closest('.jquery_accordion_item').siblings().removeClass('active').find('.jquery_accordion_content').slideUp(400);
